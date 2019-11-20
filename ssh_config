@@ -4,3 +4,10 @@ Host gitlab
     User git
     IdentityFile ~/.ssh/id_rsa
 
+# CAEN
+Host caen
+    HostName login.engin.umich.edu
+    User samwen
+    Compression yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
